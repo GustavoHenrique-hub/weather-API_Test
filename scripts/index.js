@@ -1,5 +1,11 @@
 const chave = "777fd6c175f16899b669ab9b22be7638";
 
+document.addEventListener("keypress", function (event) {
+  if (event.key === "Enter") {
+    obterTemp();
+  }
+});
+
 const obterTemp = () => {
   const inputCity = document.getElementById("cityInput").value;
   const fields1 = document.getElementById("fields1");
