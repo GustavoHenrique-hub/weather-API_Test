@@ -1,0 +1,47 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#my-button {
+  background-color: #9a1ac152;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+#my-button:hover {
+  background-color: #9b0ee1;
+  transition: 0.6s ease-in;
+}
+
+#cityInput {
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+#cityInput:focus {
+  border-color: #aa00ff;
+  outline: none;
+}
+
+.my-div {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+.my-paragraph {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 20px;
+}
